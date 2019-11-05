@@ -1,22 +1,180 @@
-.App {
+body{
+  font-size: 14px;
+  color: #000000;
+  background-color: #ccc;
+  margin: 0px;
+}
+
+.go-addBtn{
+  float: right;
+}
+
+
+
+
+.container1 {
+    
+  margin: auto;
+  width: 35vw;
+  height: 80vh;
+  margin-top: 10vh;
+  background-color: #F2F0F9;
+  
+}
+
+.container1 img {
+  width: 15vw;
+  height: 5vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+#table{
+  margin-top: 10vh;
+  margin-left: 3vw;
+  font-family: Lato;
+}
+
+/* tr {
+  height: 7vh;
+  font-family: Lato;
+
+} */
+
+tr td{
+  /* display: block; */
+}
+input {
+  border: #000;
+  padding: 2vh;
+  font-size: 0.8em;
+  width: 28vw;
+}
+
+
+input[type="submit"] {
+  background-color: #534CC5;
+  color: #FFFFFF;    
+}
+
+form p {
+  margin-top: 8vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+form a {
+  color: #FFBE00;
+  text-decoration: none;
+}
+.pwd{
+  /* margin-right: 15vw; */
+  margin-left: 15vw;
+  color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#come {
+  margin-top: 2vh;
+}
+
+
+
+#avatar {
+  height: 65%;
+  width: 3%;
+  margin-top: .5%;
+
+}
+#smallDown {
+  height: 30%;
+  width: 1%;
+  margin-top: 1.5%;
+
+}
+
+.header p {
+  margin-top: 1.5%;
+ margin-left: 65%;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  /* float: right; */
+  justify-content: flex-end;
+  height: 7%;
+  background-color: rgba(255, 255, 255, 1);
 }
 
-.App-link {
-  color: #09d3ac;
+
+#search_image {
+  width: 25%;
+  background-image: url("./IMAGES/Search Icon.png");
+  background-repeat: no-repeat;
+  text-indent: 10px;
+  padding: 8px;
+  margin-top: 2%;
 }
+
+.middle img {
+   margin-top: 2%;
+  float: right;
+  width: 10%;
+}
+
+.middle {
+  height: 10%;
+  width: 90%;
+}
+
+.middleone {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%; 
+   
+}
+
+.table_data tr {
+  border: 4px solid rgb(224, 217, 217);
+  background-color: rgba(255, 255, 255, 1);
+  height: 7vh;
+  text-align: left;
+}
+
+.save_button {
+  width: 6vw;
+  border-radius: 4px;
+  color: black;
+  height: 4vh;
+}
+
+.save_button:hover {
+  background-color: rgb(116, 113, 252);
+  height: 4vh;
+  border-radius: 4px;
+  color: black;
+}
+
+
+.column img {
+  width: 50%;
+  height: 70%;
+}
+
+.edit {
+  width: 10%;
+  height: 12%;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around; 
+}
+
+/* #table_data {
+  border: 1px solid blue;
+} */
